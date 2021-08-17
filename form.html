@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+    <head><title>Registration Form</title></head>
+    <body style="background-color: blueviolet;font-size: larger;font-family: Arial, Helvetica, sans-serif">
+        <h1 style="color: darkgoldenrod;font-family: Arial, Helvetica, sans-serif;font-size: xx-large;text-align: center;">Resistration Form</h1>
+      <form action="get">
+        <label for="Name">First Name :</label>   
+        <input type="text" name="First Name" id="First Name" maxlength="200"  ><br><br>
+        <label for="Middle Name">Middle Name :</label>
+        <input type="text" id="Middle Name" name="Middle Name" maxlength="200"><br><br>
+        <label for="Last Name">Last Name :</label>
+        <input type="text" id="Last Name" name="Last Name" maxlength="200"><br><br>
+        <label>Date of Birth</label>
+        <input type="date" value="day"><br><br>
+        <label for="Email">Email :</label>
+        <input type="text"  value="Email" maxlength="50" > <br><br>
+        <label>Gender : </label><br><br>
+        &nbsp;&nbsp;&nbsp;<input  type="radio" name="Gender"  value="3">
+        <label >Male</label><br>
+        &nbsp;&nbsp;&nbsp;<input type="radio" name="Gender"  value="4">
+        <label >Female</label><br>
+        &nbsp;&nbsp;&nbsp;<input type="radio" name="Gender"  value="5">
+        <label >Other</label><br>
+        <label>Phone No. :</label>
+        <input type="text" value="+91" name="Country Code" size="2" >
+        <input type="text" name="Phone" size="10" maxlength="10" ><br><br>
+        <label>Address:</label><BR>
+        <textarea cols="50" rows="5" ></textarea><br><br>
+        <label>City :</label>
+        <input type="text"  maxlength="30"><br><br>
+        <label>Pincode :</label>
+        <input type="text"  maxlength="30"><br><br>
+        <label>State :</label>
+        <input type="text"  maxlength="50"><br><br>
+        <label>Country :</label>
+        <input type="text"  maxlength="50"><br><br>
+        <label>Hobbies :</label><br>
+        &nbsp;&nbsp;&nbsp;<input type="checkbox" value="Hobbies" id="Hobbies" />
+        <label for="Hobbies">Dancing</label><br>
+        &nbsp;&nbsp;&nbsp;<input type="checkbox" value="Hobbies" id="Hobbies" />
+        <label for="Hobbies">Singing</label><br>
+        &nbsp;&nbsp;&nbsp;<input type="checkbox" value="Hobbies" id="Hobbies" />
+        <label for="Hobbies">Photography</label><br>
+        &nbsp;&nbsp;&nbsp;<input type="checkbox" value="Hobbies" id="Hobbies" />
+        <label for="Hobbies">Coding</label><br>
+        &nbsp;&nbsp;&nbsp;<input type="checkbox" value="Hobbies" id="Hobbies" />
+        <label for="Hobbies">Other</label><br>
+        <label > Course :</label>
+        <select >
+            <option value="B.Tech">B.Tech</option>
+            <option value="M.Tech">M.Tech</option>
+            <option value="BBC">BBC</option>
+            <option value="PHD">PHD</option>
+            <option value="B.Sc">B.Sc</option>
+        </select><br><br>
+        <label>Qualification : </label>
+        <table border="2" cellpadding=6 cellspacing=6 style="outline: darkslategrey;" >
+        <tr>
+            <th>S.No.</th>
+            <th>Examination</th>
+            <th>Board/College</th>
+            <th>Percentage(%)/CGPA</th>
+            <th>Year</th>
+        </tr>
+        <tr>
+            <th>1</th>
+            <th>Class 10</th>
+            <th>
+                <input type="text" >
+            </th>
+            <th>
+                <input type="text" >
+            </th>
+            <th>
+                <input type="text" >
+            </th>
+        </tr>    
+        <tr>
+            <th>2</th>
+            <th>Class 12</th>
+            <th>
+                <input type="text" >
+            </th>
+            <th>
+                <input type="text" >
+            </th>
+            <th>
+                <input type="text" >
+            </th>
+        </tr>    
+        <tr>
+            <th>3</th>
+            <th>Graduation</th>
+            <th>
+                <input type="text" >
+            </th>
+            <th>
+                <input type="text" >
+            </th>
+            <th>
+                <input type="text" >
+            </th>
+        </tr>    
+            
+        </table><br><br>
+        <input style="margin: 100;text-align:center;" type="submit" value="Submit" >
+      </form>
+    </body>
+</html>
